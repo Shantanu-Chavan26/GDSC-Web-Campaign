@@ -1,0 +1,56 @@
+1. Introduction
+
+=> Easily style and customise our HTML element without leaving the HTML file with the help of classes.
+
+=> It DOES NOT ADD any extra code and files to your website which can affect its performance and loading speed.
+
+2. Using play cdn.
+
+=>  <script src="https://cdn.tailwindcss.com"></script>
+
+3.***PostCSS installation***
+
+=> 1. Install NodeJs
+
+   2. Make a package.json file: 
+      CODE: 
+      npm init -y 
+   
+   3. Tailwind(Step 1)
+   CODE:
+      npm install -D tailwindcss postcss autoprefixer
+      npx tailwindcss init
+      npm i vite
+
+   4. Add Tailwind to your PostCSS configuration.(Apply Tailwind to all the elements)
+
+   5.Make css file and add the tailwind directives 
+     Code: 
+     @tailwind base;
+     @tailwind components;
+     @tailwind utilities;
+
+   6. npm run "script-name"
+
+4. Tailwind extension
+
+5. Font Families:
+    
+    Code:
+    
+    <h1 class="font-serif text-start">Hello</h1>
+    <h1 class="font-sans text-end">Hello</h1>
+
+6. Text-Spacing
+ <h1 class="font-sans text-9xl text-center">Hello</h1>
+   
+
+7.CSS positioning
+
+
+8. Width height 
+
+9. Margin , Padding
+
+10. flex
+    

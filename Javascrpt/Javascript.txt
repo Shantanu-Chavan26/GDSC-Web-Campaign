@@ -1,0 +1,8 @@
+Variable Declarations:
+=> var = Declare variables in JS have a function scope and global scope they are accessible throughout the entire script.
+
+const = value of the declared variable cannot be changes afterwards
+
+let = Only accessible withing a scope 
+
+

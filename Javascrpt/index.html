@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="div">
+    Hello
+ </div>
+
+    <!-- <script>
+        var element = document.getElementById("div");
+
+
+element.textContent = "World";
+
+
+element.classList.add("highlight");
+
+
+element.addEventListener("click", function() {
+    alert("Element clicked!");
+});
+    </script> -->
+
+    <!-- ***1*** -->
+    <button id="myButton">Click me</button>
+
+    <!-- ***2*** -->
+    <div id="Dom">
+        <p>Hello World</p>
+    </div>
+   
+    <!-- ***3*** -->
+    <h2>List of Fruits</h2>
+    <ul id="fruitList">
+        <li class="fruit">Apple</li>
+        <li class="fruit">Banana</li>
+        <li class="fruit">Orange</li>
+    </ul>
+
+
+ <script>var click = document.getElementById("myButton");
+    click.onclick = function()
+    {
+        alert("I got clicked");
+    }
+    
+    
+    //Eg2
+    // var change = document.getElementById("Dom");
+    // change.innerHTML = "Hello GDSC";
+    
+    
+    
+    //Eg3 
+    
+    var fruitList = document.getElementById("fruitList");
+    
+    
+    fruitList.textContent = "List of Vegetables";
+    
+    
+    var newItem = document.createElement("li");
+    newItem.textContent = "Carrot";
+    fruitList.appendChild(newItem);
+    
+    
+    var fruits = document.querySelectorAll(".fruit");
+    
+    
+    fruits.forEach(function(fruit) {
+        fruit.textContent = fruit.textContent.toUpperCase();
+    });
+    </script> 
+</body>
+</html>
