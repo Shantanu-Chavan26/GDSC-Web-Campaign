@@ -43,9 +43,9 @@ function ShambhuTrip(Freeperiod) {
 
     else 
     {
-      alert("Padhle BC");
+      alert("Padhle Bhai :) ");
     }
-}
+}~~
 var Freeperiod = false;
 
 var Result = ShambhuTrip(Freeperiod);
